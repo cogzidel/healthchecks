@@ -1,6 +1,6 @@
 {
   "name": "healthchecks",
-  "website": "https://github.com/healthchecks/healthchecks",
+  "website": "https://github.com/cogzidel/healthchecks",
   "keywords": ["heroku", "cron", "devops", "python", "monitoring", "cron-jobs"],
   "image": "heroku/python",
   "addons": [
@@ -22,15 +22,15 @@
     },
     "SITE_NAME": {
       "description": "Used throughout the templates.",
-      "value": "My Monitoring Project"
+      "value": "My CronMon Project"
     },
     "FROM_EMAIL": {
       "description": "Email from address.",
-      "value": "noreply@example.com"
+      "value": "noreply@cronmon.com"
     },
     "PING_EMAIL_DOMAIN": {
       "description": "Email domain used to received email pings.",
-      "value": "example.com"
+      "value": "cronmon.com"
     },
     "SECRET_KEY": {
       "generator": "secret"
