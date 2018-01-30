@@ -19,7 +19,7 @@ HOST = "localhost"
 SECRET_KEY = "---"
 DEBUG = True
 ALLOWED_HOSTS = []
-DEFAULT_FROM_EMAIL = 'healthchecks@example.org'
+DEFAULT_FROM_EMAIL = 'karthiyayini@cogzidel.com'
 USE_PAYMENTS = False
 REGISTRATION_OPEN = True
 TEMPLATE_DEBUG = False
@@ -122,7 +122,7 @@ USE_L10N = True
 USE_TZ = True
 
 SITE_ROOT = "http://localhost:8000"
-SITE_NAME = MASTER_BADGE_LABEL = "Mychecks"
+SITE_NAME = MASTER_BADGE_LABEL = "My CronMon"
 PING_ENDPOINT = SITE_ROOT + "/ping/"
 PING_EMAIL_DOMAIN = HOST
 STATIC_URL = '/static/'
