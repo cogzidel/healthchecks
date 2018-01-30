@@ -2,7 +2,7 @@ import os
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 SITE_ROOT = os.getenv('SITE_ROOT', "https://healthchecksapp.herokuapp.com")
-SITE_NAME = os.getenv('SITE_NAME', "My CronMon")
+SITE_NAME = os.getenv('SITE_NAME', "CronMon")
 DEFAULT_FROM_EMAIL = os.getenv('FROM_EMAIL', "noreply@cronmon.com")
 PING_ENDPOINT = os.getenv('PING_ROOT', SITE_ROOT) + "/ping/"
 PING_EMAIL_DOMAIN = os.getenv('PING_EMAIL_DOMAIN', "example.com")
