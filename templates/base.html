@@ -63,18 +63,18 @@
                 {% if request.user.is_authenticated %}
                 <img
                     id="logo"
-                    height="50"
+                    height="100"
                     width="59"
-                    src="{% static 'img/logo.png'%}"
-                    srcset="{% static 'img/logo.png'%} 1x, {% static 'img/logo@2x.png'%} 2x"
+                    src="{% static 'img/logo200x50.png'%}"
+                    srcset="{% static 'img/logo200x50.png'%} 1x, {% static 'img/logo400x100.png'%} 2x"
                     alt="{% site_name %}">
                 {% else %}
                 <img
                     id="logo"
-                    height="50"
+                    height="100"
                     width="200"
-                    src="{% static 'img/logo-full.png'%}"
-                    srcset="{% static 'img/logo-full.png'%} 1x, {% static 'img/logo-full@2x.png'%} 2x"
+                    src="{% static 'img/logo200x50.png'%}"
+                    srcset="{% static 'img/logo200x50.png'%} 1x, {% static 'img/logo400x100.png'%} 2x"
                     alt="{% site_name %}">
                 {% endif %}
             </a>
